@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         splashView = new SplashView(this);
         mMainView.addView(splashView);
         setContentView(mMainView);
-        
+
         //后台开始加载数据
         startLoadData();
     }
@@ -33,6 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 //数据加载完毕，进入主界面--->开启后面的两个动画
                 splashView.splashDisappear();
             }
-        },5000);//延迟时间
+        },3000);//延迟时间
     }
 }

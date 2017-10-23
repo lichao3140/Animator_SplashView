@@ -65,6 +65,7 @@ public class SplashView extends View {
     }
 
     private void init(Context context) {
+        //获取颜色
         mCircleColors = context.getResources().getIntArray(R.array.splash_circle_colors);
         //画笔初始化
         //消除锯齿
